@@ -1,0 +1,8 @@
+# python:
+/*
+!/mooncraft
+!/static
+!/media
+!/.gitignore
+*.py[cod]
+
