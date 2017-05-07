@@ -25,6 +25,7 @@ SECRET_KEY = '$-v&r9-46ukaco-_7$zk6yn8u_kwq!14-w4wn5qgieigy7$rb('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = []
 
 
@@ -75,12 +76,8 @@ WSGI_APPLICATION = 'mooncraft.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mooncraft_db',
-        'USER': 'moon',
-        'PASSWORD': 'mooncraft',
-        'HOST': 'localhost',
-        'PORT': '', # set to empty string for default
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
@@ -121,4 +118,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '../static/'
+
+import settings_production

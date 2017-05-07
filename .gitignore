@@ -5,4 +5,5 @@
 !/media
 !/.gitignore
 *.py[cod]
+*mooncraft/mydatabase
 
