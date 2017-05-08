@@ -6,5 +6,4 @@
 !/.gitignore
 *.py[cod]
 /mooncraft/mydatabase
-/mooncraft/mc01/migrations
 
