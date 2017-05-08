@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
+from .models import GameUrl
 
 # Create your views here.
 from django.http import HttpResponse
