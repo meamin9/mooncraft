@@ -16,7 +16,7 @@ def enter(request):
     url = GameUrl.objects.all()[0].res_url
     return HttpResponse(url)
 
-def res(request, uri, version=None):
+def res(request, version, uri):
     def file_iterator(file_name, chunk_size=512):
         with open(file_name) as f:
             while True:
